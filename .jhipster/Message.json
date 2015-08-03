@@ -1,0 +1,41 @@
+{
+    "relationships": [
+        {
+            "relationshipId": 1,
+            "relationshipName": "user",
+            "otherEntityName": "user",
+            "relationshipType": "many-to-one",
+            "otherEntityField": "login"
+        }
+    ],
+    "fields": [
+        {
+            "fieldId": 1,
+            "fieldName": "email",
+            "fieldType": "String"
+        },
+        {
+            "fieldId": 2,
+            "fieldName": "messageText",
+            "fieldType": "String"
+        },
+        {
+            "fieldId": 3,
+            "fieldName": "name",
+            "fieldType": "String"
+        },
+        {
+            "fieldId": 4,
+            "fieldName": "startDate",
+            "fieldType": "DateTime"
+        },
+        {
+            "fieldId": 5,
+            "fieldName": "endDate",
+            "fieldType": "DateTime"
+        }
+    ],
+    "changelogDate": "20150803174414",
+    "dto": "mapstruct",
+    "pagination": "pagination"
+}
