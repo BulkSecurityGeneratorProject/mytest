@@ -1,0 +1,15 @@
+bin/
+target/
+/src/main/webapp/dist
+/node/**
+/node_modules/**
+.sass-cache/**
+.metadata
+*.tmp
+*.bak
+*.swp
+/log/**
+Thumbs.db
+.DS_Store
+.svn
+._*
